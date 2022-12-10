@@ -8,6 +8,14 @@
     <link rel="stylesheet"  href="styles.css" />
 </head>
 <body>
+    <header>
+        <div class="title">
+            <div class="icon">
+                <img src="icon.svg" />
+            </div>
+            <h1>The Plot Weekly</h1>
+        </div>
+    </header>
     <div class="container">
         <div class="header">
             <div class="currentWeekday">
@@ -20,6 +28,7 @@
         <div class="formSelections">
             <form action="POST">
                 <fieldset class="schedule">
+                    <legend class="scheduleLegend">Schedule</legend>
                     <div class="scheduleRow">
                         <label for="6">06:00 AM</label>
                         <input type="text" id="6">
@@ -98,11 +107,14 @@
                 <div class="rightSideForm">
 
                     <fieldset class="priorities">
+                        <legend class="priorityLegend">Priorities</legend>
                         <textarea>
                         </textarea>
                     </fieldset>
 
                     <fieldset class="toDo">
+                        <legend class="toDoLegend">To-Do</legend>
+
                         <div class="toDoRow">
                             <label for="toDo1">&#x2022; </label>
                             <input type="text" id="toDo1">
@@ -135,11 +147,15 @@
                     </fieldset>
 
                     <fieldset class="notes">
+                        <legend class="noteLegend">Notes</legend>
                         <textarea>
                         </textarea>
                     </fieldset>
 
-                    <button class="saveButton">Save</button>
+                    <div class="save">
+                        <button class="saveButton">Save</button>
+                    </div>
+                    
                 </div>
             </form>
         </div>
