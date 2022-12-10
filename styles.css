@@ -1,0 +1,82 @@
+*,
+::before,
+::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --base-border-color: #385170;
+    --base-text-color: #9fd3c7;
+    --base-background-color: #ececec;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    max-width: 1000px;
+    width: 100%;
+    background-color: var(--base-background-color);
+    border: 10px solid var(--base-border-color)
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.formSelections {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 50%;
+}
+
+.rightSideForm {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 50%;
+}
+
+.toDo {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    width: 100px;
+    background-color: var(--base-border-color);
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover {
+    opacity: .7;
+    cursor: pointer;
+}
