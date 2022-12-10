@@ -105,6 +105,7 @@ form {
 .schedule {
     display: flex;
     flex-direction: column;
+    row-gap: 2px;
     margin-left: 10px;
     margin-right: 10px;
     width: 50%;
@@ -159,6 +160,7 @@ button:hover {
 
 .scheduleRow input {
     border: none;
+    margin-bottom: 2px;
     background-color: var(--base-background-color);
 }
 
@@ -176,8 +178,6 @@ fieldset {
 
 input:hover {
     background-color: var(--base-hover-color);
-    border: 2px solid black;
-    border-radius: 5px;
 }
 
 legend {
