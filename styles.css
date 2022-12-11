@@ -54,12 +54,16 @@ header {
     align-items: flex-start;
     margin-left: 50px;
     margin-top: 10px;
-    font-size: 2em;
     justify-content: center;
 }
 
-.icon {
-    width: 2em;
+.title .icon {
+    width: 75px;
+}
+
+.title h1 {
+    font-size: 32px;
+    width: 175px; 
 }
 
 .container {
@@ -107,7 +111,7 @@ form {
     flex-direction: column;
     row-gap: 2px;
     margin-left: 10px;
-    margin-right: 10px;
+    margin-right: 5px;
     width: 50%;
     height: 100%;
 }
@@ -116,7 +120,7 @@ form {
     display: flex;
     flex-direction: column;
     width: 50%;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-right: 10px;
 }
 
@@ -197,6 +201,7 @@ label {
 
 input {
     width: 75%;
+    padding: 3px;
 }
 
 textarea {
@@ -207,6 +212,7 @@ textarea {
     height: 80%;
     margin: 5px;
     resize: none;
+    padding: 3px;
 }
 
 
